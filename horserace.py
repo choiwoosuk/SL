@@ -58,10 +58,10 @@ def addParsingDicList(xmlData, motherData, childData):
     return list
 
 def mainLogo():
-    TempFont = font.Font(window, size=30, family = 'HanS CalliPunch')
+    TempFont = font.Font(window, size=25, family = '휴먼둥근헤드라인')
     MainText = Label(window,font=TempFont,text="경주마 추천기")
     MainText.pack()
-    MainText.place(x=25,y=25)
+    MainText.place(x=25,y=40)
 
 def raceTest():
     race=Button(window,text="모의경마",height=2,width=12,command=newWindow)
